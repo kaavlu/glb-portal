@@ -1,0 +1,16 @@
+# Supabase local / CLI configuration (see https://supabase.com/docs/guides/cli/config)
+
+project_id = "glb-portal"
+
+[api]
+enabled = true
+
+[db]
+major_version = 15
+
+[db.seed]
+enabled = true
+sql_paths = ["./seed.sql"]
+
+[studio]
+enabled = true
